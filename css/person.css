@@ -1,0 +1,197 @@
+body,ul,li,p,pre,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+/*	background: #272822;*/
+	color: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.nav{
+	width: 85%;
+	height: 101px;
+	position: fixed;
+	left:9%;
+	top:0;
+	background:rgba(0,0,0,0.5); 
+	z-index: 10;
+	display: none;
+    
+}
+.headpic{
+	width: 100px;
+	height:100px;
+	float: left;
+	border-radius:50%;
+}
+.off-btn{
+	width: 30px;
+	height:30px;
+    font-size: 20px;
+	border-radius: 50%;
+	margin-top: 15px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+    cursor: pointer;
+    color: white;
+}
+.headpic img{
+	width: 100%;
+	height:100%;
+    border-radius:50%;
+}
+.nav ul li{
+     float: left;   
+     margin-left: 15%;
+     line-height: 80px;
+     text-align: center;     
+}
+.nav ul li span{
+	transition: all 1s;
+	cursor: pointer;
+	color: white;
+}
+.nav ul li span:hover{
+	color:gray;
+}
+.nav-btn{
+	width: 50px;
+	height: 50px;
+	color: white;
+	background:rgba(0,0,0,0.5);
+	border-radius: 20px;
+	position: absolute;
+    left:48%;
+    top:200px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 10;
+}
+.tit{
+	width: 100%;
+	height:200px;
+    position: absolute;
+    top:300px;
+    z-index: 10;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    line-height: 200px;
+}
+
+/*关于我*/
+.head{
+	width: 100%;
+	height:100px;
+	text-align: center;
+	line-height: 40px;
+	margin: 30px;
+
+}
+
+.myself{
+	width:1200px;
+	height: 500px;
+	margin: 0 auto;
+
+
+}
+/*.myself h1{
+	margin: 40px;
+}*/
+.myself p{
+	width: 500px;
+	height: 400px;
+	margin: 40px;
+	line-height: 50px;
+}
+.pic{ 
+	width: 370px;
+	height: 390px;
+	position: relative;
+	bottom:450px;
+	left:750px;
+}
+/*jineng*/
+.skills{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	top:30px;
+
+}
+.head2{
+	width: 100%;
+	height:100px;
+	text-align: center;
+	line-height: 50px;
+    position: relative;
+	top:50px;
+}
+
+
+
+/*作品*/
+.head3{
+	width: 100%;
+	height:100px;
+	text-align: center;
+	line-height: 50px;
+    position: relative;
+/*	bottom:200px;*/
+}
+.work{
+	width: 80%;
+	height:500px;
+/*	background: red;*/
+	margin: 0 auto;
+}
+
+
+/*联系我*/
+.tel-me{
+	width: 76.6%;
+	height: 100%;
+	margin: 0 auto;	
+}
+.edu-head{
+	width: 100%;
+	height:20%;
+	text-align: center;
+	line-height: 60px;
+}
+.edu-middle{
+	width: 100%;
+	height:50%;
+}
+.name{
+	width: 100%;
+	height: 20%;
+	background: white;
+	color: gray;
+}
+.email{
+	width: 100%;
+	height: 20%;
+	background: white;
+	color: gray;
+	margin-top: 5%;
+}
+.message{
+	width: 100%;
+	height: 60%;
+	background: white;
+	color: gray;
+	margin-top: 5%;
+}
